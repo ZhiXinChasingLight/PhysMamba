@@ -1,5 +1,8 @@
 # PhysMamba
-![PhysMamba_frame](./figures/PhysMamba_frame.pdf)
+![PhysMamba_frame](./figures/PhysMamba_frame.png)
+
+![SSSD](./figures/graph_abstract.png)
+
 
 ## :wrench: Setup
 
@@ -38,6 +41,9 @@ STEP 1: Download the PURE raw data by asking the paper authors
 STEP 2: Modify `./configs/train_configs/intra/0PURE_PhysMamba.yaml` 
 
 STEP 3: Run `python main.py --config_file ./configs/train_configs/intra/0PURE_PhysMamba.yaml` 
+
+![Heart Rate](./figures/HR_distribution.png)
+![Visual](./figures/visual.png)
 
 ### Cross-dataset - Training on MMPD and testing on PURE With PhysMamba
 
